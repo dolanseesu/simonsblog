@@ -1,0 +1,117 @@
+baseURL = "www.simonsblog.xyz/"
+languageCode = "en-us"
+title = "SimonsBlog"
+theme = "mainroad"
+paginate = 10
+
+disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author] # Used in authorbox
+  name = "Simon Hensel"
+  bio = "Tech, food, books and you got me."
+  #avatar = "img/avatar.png"
+
+[Params]
+  description = "Simon's Personal blog about everything."
+  copyright = "Simon Hensel"
+  opengraph = "true"
+  schema = "true"
+  readmore = "false"
+  authorbox = "true"
+  toc = "true"
+  pager = true
+  post_meta = ["author", "date", "categories"]
+  mainSections = ["linux", "privacy", "personal"]
+  dateform        = "2 Jan, 2006"
+  dateformShort   = "2 Jan"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "15:04 02-01-2006"
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
+
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
+
+  # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+  image = "img/archlinux-logo.png" # Logo image. Path relative to "static"
+  title = "SimonsBlog" # Logo title, otherwise will use site title
+  subtitle = "The Blog about Linux, Privacy and everthing else." # Logo subtitle
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["recent", "categories", "taglist", "social", "languages"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = "true" # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  github = "username"
+  email = "example@example.com"
+
+# Custom social links
+[[Params.widgets.social.custom]]
+  title = "My Home Page"
+  url = "http://example.com"
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = -110
+
+  [[menu.main]]
+    name = "Linux"
+    post = ""
+    pre = "<i class='fa fa-road'></i>"
+    url = "/linux/"
+    weight = -105
+
+  [[menu.main]]
+    name = "Privacy"
+    post = ""
+    pre = "<i class='fa fa-road'></i>"
+    url = "/privacy/"
+    weight = -100
+  
+  [[menu.main]]
+    name = "Projects"
+    post = ""
+    pre = "<i class='fa fa-road'></i>"
+    url = "/projects/"
+    weight = -100
+  
+  [[menu.main]]
+    name = "Personal Blog"
+    post = ""
+    pre = "<i class='fa fa-road'></i>"
+    url = "/personal/"
+    weight = -95
+
+  [[menu.main]]
+    name = "About"
+    post = ""
+    pre = "<i class='fa fa-road'></i>"
+    url = "/about/"
+    weight = -90
+
+#[taxonomies]
+#    category = "blog"
+#    tag      = "tags"
+#    series   = "series"
