@@ -30,4 +30,4 @@ Like all german, I like to drink beer, wear Lederhosen and eat Bratwurst. At lea
 
 Jokes aside, when I'm not writing papers or studying for exams I like to travel and meet new people, cook delicious food or grab a book and forget about the world for a while.
 
-I startet this blog out of pure fun and curiosity. All opinions are my own and this site is in no way sponsored by anyone. I created the pages with [Hugo](https://www.gohugo.io) and all what you see right now is hosted for free on [netlify](https://www.netlify.com/). The whole repository is posted on my [GitHub]().
+I startet this blog out of pure fun and curiosity. All opinions are my own and this site is in no way sponsored by anyone. I created the pages with [Hugo](https://www.gohugo.io) and all what you see right now is hosted for free on [netlify](https://www.netlify.com/). The whole repository is posted on my [GitHub](https://github.com/dolanseesu/simonsblog).
