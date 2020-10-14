@@ -15,5 +15,5 @@ Since git doens't include empty folders, here is the orinigal file structure in 
   - projects/
 - data/
 - layouts/
-- resources/\\_gen/images/
+- resources/\_gen/images/
 - themes/
