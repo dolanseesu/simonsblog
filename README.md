@@ -1,6 +1,6 @@
 # simonsblog.xyz
 
-These are the files for my static website, created with Hugo. I use the Mainroad theme with custom css.
+**--- DEPRECATED ---**
 
 ## Original Hugo file structure
 
